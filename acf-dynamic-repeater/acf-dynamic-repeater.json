@@ -1,0 +1,126 @@
+[
+    {
+        "key": "group_602ea470a7a2d",
+        "title": "Load terms and save terms by selecting taxonomy",
+        "fields": [
+            {
+                "key": "field_602ea483a67f3",
+                "label": "Taxonomy",
+                "name": "taxonomy",
+                "type": "acfe_taxonomies",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "only_front": 0,
+                "taxonomy": "",
+                "field_type": "select",
+                "default_value": "",
+                "return_format": "name",
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "choices": [],
+                "ajax": 0,
+                "placeholder": "",
+                "search_placeholder": "",
+                "layout": "",
+                "toggle": 0,
+                "allow_custom": 0
+            },
+            {
+                "key": "field_602ea4a3a67f4",
+                "label": "Terms",
+                "name": "terms",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "only_front": 0,
+                "acfe_repeater_stylised_button": 0,
+                "filter_row_edit": "",
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_602ea4b1a67f5",
+                        "label": "Terms",
+                        "name": "terms",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "only_front": 0,
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "custom_site_title": 0,
+                        "custom_site_tagline": 0,
+                        "custom_title": 0,
+                        "custom_slug": 0,
+                        "custom_username": 0,
+                        "custom_sku": 0,
+                        "readonly": 0
+                    },
+                    {
+                        "key": "field_602f91cc36144",
+                        "label": "Term Id",
+                        "name": "term_id",
+                        "type": "acfe_hidden",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "only_front": 1,
+                        "default_value": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "left",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "acfe_display_title": "",
+        "acfe_autosync": "",
+        "acfe_form": 0,
+        "acfe_meta": "",
+        "acfe_note": ""
+    }
+]
